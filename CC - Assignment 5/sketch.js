@@ -32,11 +32,14 @@ function setup() {
   buttonSpeedUp = createButton('Speed Up!');
 
   buttonSpeedDown.mousePressed(speedDown);
+  buttonSpeedDown.style("background",'#ffdbcf')
   buttonSpeedUp.mousePressed(speedUp);
+  buttonSpeedUp.style("background",'#ffdbcf')
 
 
   buttonTalk = createButton('Turn on Dog Translator')
   buttonTalk.position(60, 170);
+  buttonTalk.style("background",'#f7d9fa')
   buttonTalk.mousePressed(talk)
 
 
@@ -48,7 +51,11 @@ function setup() {
   push()
   sizeSlider = createSlider(80, 100);
   sizeSlider.size(120, 30);
+  sizeSlider.style('background', 'red');
+
+
   sizeSlider.position(50, 80); //ball size
+  
   pop()
 
   selectBall = createSelect();
@@ -104,7 +111,7 @@ function draw() {
   push()
   fill('black')
   textSize(15)
-  text('Ball Size', sizeSlider.width + 60, sizeSlider.height + 74);
+  text('Ball Size', sizeSlider.width + 60, sizeSlider.height + 70);
 
   pop()
   cx += vx;
