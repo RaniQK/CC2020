@@ -11,7 +11,6 @@ let pose;
 
 let noseX = 240
 let noseY = 320
-
 let saveCanvas;
 
 function preload(){
