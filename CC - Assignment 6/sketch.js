@@ -4,6 +4,8 @@
 // https://youtu.be/OIo-DIOkNVg
 // https://editor.p5js.org/codingtrain/sketches/ULA97pJXR
 
+//using PoseNet and Clickable to make a Halloween Face Filter
+
 let video;
 let poseNet;
 let pose;
